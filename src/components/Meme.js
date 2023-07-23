@@ -3,7 +3,7 @@ import memesData from '../memData'
 // console.log(memesData)
 const Meme = () => {
 
-    const getMemeImage = () => {
+    const handleClick = () => {
     const memeArray = memesData.data.memes
     const randomNumber = Math.floor(Math.random() * memeArray.length)
     const url = memeArray[randomNumber].url
@@ -26,7 +26,7 @@ const Meme = () => {
             <button 
             type="submit" 
             className='form-btn'
-            onClick={getMemeImage}
+            onClick={handleClick}
             >
               Get a new meme image 🖼
             </button>
