@@ -35,4 +35,4 @@ const Meme = () => {
   )
 }
 
-export default Meme
+export default Meme 
