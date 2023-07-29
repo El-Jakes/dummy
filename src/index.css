@@ -9,6 +9,7 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+
 main {
   padding: 36px;
 }
@@ -63,4 +64,5 @@ main {
 
 .meme-image {
   max-width: 100%;
+  margin: 1em auto;
 }
